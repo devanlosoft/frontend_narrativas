@@ -35,12 +35,11 @@ export default function LastedContent() {
     : data;
 
   if (!data) return <div>No hay datos para mostrar</div>;
-  let length: number = categories.length;
 
   return (
-    <div className="text-2xl font-black text-white antialiased">
+    <div className="text-2xl font-black text-stone-700 antialiased">
       <div
-        className={`mb-6 mt-1 grid grid-cols-${length} place-items-center text-center`}
+        className={`mb-6 mt-1 grid auto-cols-max grid-flow-col place-content-center gap-4`}
       >
         {categories.map((category, index) => (
           <Buttons
