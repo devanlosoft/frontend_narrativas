@@ -60,7 +60,7 @@ const Navbar = () => {
                 {/* Menú de navegación para pantallas grandes */}
                 <div className="md:flex items-center hidden">
                     <ul className="flex flex-col md:flex-row md:space-x-4 md:items-center">
-                        <li><a href="#" className="">Inicio</a></li>
+                        <li><a href="uploadContents" className="">Inicio</a></li>
                         <li><a href="#" className="">Subjetividades</a></li>
                         <li><a href="#" className="">Prácticas</a></li>
                         <li><a href="#" className="">Login</a></li>
