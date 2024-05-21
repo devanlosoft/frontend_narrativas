@@ -10,12 +10,12 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
           <div>
-            <h2 className="mb-4 text-xl font-bold">Logo Parque Explora</h2>
+            <h2 className="mb-4 text-xl font-bold">Subjetividades</h2>
             {/* Inserta aquí el código para el logo de Parque Explora */}
           </div>
           <div>
             <h2 className="mb-4 text-xl font-bold">
-              Logo Planetario de Medellín
+              Practicas ambientales 
             </h2>
             {/* Inserta aquí el código para el logo del Planetario de Medellín */}
           </div>
@@ -27,9 +27,9 @@ const Footer = () => {
           </div>
           <div>
             <h2 className="mb-4 text-xl font-bold">Ubicación</h2>
-            <p>CARRERA 52 N. 73 - 75</p>
-            <p>MEDELLÍN - COLOMBIA</p>
-            <p>+57(4) 516 83 00</p>
+            <p>Cra. 6 #77-305</p>
+            <p>MONTERÍA - COLOMBIA</p>
+            <p> 47860920</p>
           </div>
         </div>
       </div>

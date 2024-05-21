@@ -9,10 +9,10 @@ export default function Carousel() {
   const carouselItems = [
     {
       image:
-        'https://img.freepik.com/foto-gratis/papel-pintado-gatito-lindo-fantasia_1409-6188.jpg',
-      title: 'Tiempo, más allá del reloj',
-      description: 'descripcion para imagen 1',
-      button_url: 'facebook.com',
+        'https://www.laguiademonteria.co/wp-content/uploads/2015/07/rio-sinu-Monteria.jpg',
+      title: 'El rio sinu',
+      description: 'El Sinú es uno de los tres ríos más importantes de Córdoba, pasa por 17 municipios en un recorrido total de 415 kilómetros. Conecta de sur a norte a la ciudad de Montería, allí ha adquirido mayor relevancia debido las fallas del transporte público convencional.',
+      button_url: 'https://rutasdelconflicto.com/rios-vida-muerte/rios/r-o',
     },
     {
       image: 'https://i.blogs.es/0ca9a6/aa/1366_2000.jpeg',
