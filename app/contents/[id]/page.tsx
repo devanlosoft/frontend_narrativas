@@ -14,7 +14,7 @@ export default function Page() {
     imagen: null as File | null, // Inicializar imagen como null o File
   });
 
-  const [selectedFile, setSelectedFile] = useState(null);
+  const [selectedFile, setSelectedFile] = useState<File | null>(null);
 
   const handleTitleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setFormData({
@@ -39,9 +39,7 @@ export default function Page() {
 
   const handleImageChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     if (e.target?.files && e.target.files.length > 0) {
-      selectedFile({
-        selectedFile: e.target.files[0],
-      });
+      setSelectedFile(e.target.files[0]);
       console.log('FormData:', formData);
     }
   };
