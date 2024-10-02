@@ -93,7 +93,7 @@ const Navbar = () => {
           <ul className="flex flex-col md:flex-row md:items-center md:space-x-4">
             <li className="border-r-2 border-gray-300 pr-4">
               <a
-                href="uploadContents"
+                href="/"
                 className={`px-4 py-2 text-lg font-bold ${scrolled ? 'text-blue-500 hover:text-blue-700' : 'text-white hover:text-gray-300'}`}
               >
                 Inicio
@@ -104,7 +104,7 @@ const Navbar = () => {
                 href="#"
                 className={`px-4 py-2 text-lg font-bold ${scrolled ? 'text-blue-500 hover:text-blue-700' : 'text-white hover:text-gray-300'}`}
               >
-                Subjetividades
+                Practicas y subjetividades
               </a>
             </li>
             <li className="border-r-2 border-gray-300 pr-4">
@@ -112,12 +112,12 @@ const Navbar = () => {
                 href="#"
                 className={`px-4 py-2 text-lg font-bold ${scrolled ? 'text-blue-500 hover:text-blue-700' : 'text-white hover:text-gray-300'}`}
               >
-                Prácticas
+                Narrativas de estudiantes
               </a>
             </li>
             <li>
               <a
-                href="#"
+                href="login"
                 className={`px-4 py-2 text-lg font-bold ${scrolled ? 'text-blue-500 hover:text-blue-700' : 'text-white hover:text-gray-300'}`}
               >
                 Login
