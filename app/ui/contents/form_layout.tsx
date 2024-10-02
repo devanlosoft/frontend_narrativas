@@ -2,10 +2,15 @@ import React, { useState } from 'react';
 import { Listbox, Transition } from '@headlessui/react';
 import { CheckIcon, ChevronUpDownIcon } from '@heroicons/react/20/solid';
 
-export default function SelectForm({ name, onChange }) {
+interface SelectFormProps {
+  name: string;
+  onChange: (value: boolean) => void;
+}
+
+export default function SelectForm({ name, onChange }: SelectFormProps) {
   const [selectedState, setSelectedState] = useState(false);
 
-  const handleSelectChange = (value) => {
+  const handleSelectChange = (value: boolean) => {
     setSelectedState(value); // Actualiza el estado seleccionado
     onChange(value); // Llama a la función onChange si está definida
   };

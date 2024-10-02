@@ -37,11 +37,9 @@ export default function Page() {
     });
   };
 
-  const handleImageChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    if (e.target?.files && e.target.files.length > 0) {
-      setSelectedFile(e.target.files[0]);
-      console.log('FormData:', formData);
-    }
+  const handleImageChange = (file: File) => {
+    setSelectedFile(file);
+    console.log('FormData:', formData);
   };
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {

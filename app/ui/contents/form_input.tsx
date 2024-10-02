@@ -1,4 +1,9 @@
-export default function InputForm({ name, onChange }) {
+interface InputFormProps {
+  name: string;
+  onChange: (event: React.ChangeEvent<HTMLInputElement>) => void;
+}
+
+export default function InputForm({ name, onChange }: InputFormProps) {
   return (
     <div>
       <div className="mt-2 rounded-md shadow-sm ">
