@@ -16,17 +16,22 @@ export default function Carousel() {
       button_url: 'https://rutasdelconflicto.com/rios-vida-muerte/rios/r-o',
     },
     {
-      image: 'https://i.blogs.es/0ca9a6/aa/1366_2000.jpeg',
-      title: 'Formas de relacionamiento con el rio parte 2',
-      description: 'Una vision mas alla del barrio',
-      button_url: 'x.com',
+      image:
+        'https://colombiabellezapura.com/wp-content/uploads/2023/05/Rio-Sinu-Monteria.jpg',
+      title: 'Montería',
+      description:
+        'Montería es una ciudad del norte de Colombia. Es conocida por su cultura ganadera y los planchones (balsas techadas) que transportan a los pasajeros a través del río Sinú.',
+      button_url:
+        'https://res.cloudinary.com/dtquyqxyl/video/upload/v1727889983/public/stp6olv9d3umzfpbazfa.mp4',
     },
     {
       image:
-        'https://media.es.wired.com/photos/6501e7429fa9000811a95fe8/16:9/w_2240,c_limit/Adobe%20Firefly.jpeg',
-      title: 'Titulo para imagen 3',
-      description: 'descripcion para imagen 3',
-      button_url: 'instagram.com',
+        'https://web.comisiondelaverdad.co/media/zoo/images/Galeria-Monteria-3_0169181a3f2f74110410e2ad92d1cb0c.jpg',
+      title: 'Los planchones',
+      description:
+        'Por las aguas del río Sinú, en Montería, navegan embarcaciones artesanales que transportan a los habitantes de una orilla a otra. Estas mismas aguas llevan consigo la historia de décadas de conflicto armado.',
+      button_url:
+        'https://res.cloudinary.com/dtquyqxyl/video/upload/v1727889983/public/stp6olv9d3umzfpbazfa.mp4',
     },
   ];
 
