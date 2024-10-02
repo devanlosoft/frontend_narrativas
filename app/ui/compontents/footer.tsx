@@ -1,37 +1,22 @@
-// Footer.js
+// Footer.tsx
 import React from 'react';
 
-
 const Footer = () => {
- 
-
   return (
-    <footer className="bg-gray-200 py-8 text-gray-800">
-      <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
-          <div>
-            <h2 className="mb-4 text-xl font-bold">Subjetividades</h2>
-            {/* Inserta aquí el código para el logo de Parque Explora */}
-          </div>
-          <div>
-            <h2 className="mb-4 text-xl font-bold">
-              Practicas ambientales 
-            </h2>
-            {/* Inserta aquí el código para el logo del Planetario de Medellín */}
-          </div>
-          <div>
-            <h2 className="mb-4 text-xl font-bold">
-              Logo del Exploratorio Parque Explora
-            </h2>
-            {/* Inserta aquí el código para el logo del Exploratorio Parque Explora */}
-          </div>
-          <div>
-            <h2 className="mb-4 text-xl font-bold">Ubicación</h2>
-            <p>Cra. 6 #77-305</p>
-            <p>MONTERÍA - COLOMBIA</p>
-            <p> 47860920</p>
-          </div>
-        </div>
+    <footer className="bg-gray-800 py-6 text-white">
+      <div className="container mx-auto px-4 text-center">
+        <p className="mb-2 text-lg font-semibold">
+          Desarrollado por el grupo de investigación{' '}
+          <span className="font-bold text-yellow-400">BIMADINO</span>
+        </p>
+        <a
+          href="https://www.unicordoba.edu.co/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-400 transition-colors duration-300 hover:text-blue-600 hover:underline hover:shadow-lg"
+        >
+          www.unicordoba.co
+        </a>
       </div>
     </footer>
   );

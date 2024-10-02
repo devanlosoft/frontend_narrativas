@@ -58,7 +58,7 @@ export default function CardContent({
               </svg>
             </span>
             <span className="relative w-full text-left transition-colors duration-200 ease-in-out group-hover:text-white">
-              VER MAS
+              Reproducir
             </span>
           </a>
         </div>

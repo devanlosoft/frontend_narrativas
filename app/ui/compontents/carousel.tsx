@@ -11,7 +11,8 @@ export default function Carousel() {
       image:
         'https://www.laguiademonteria.co/wp-content/uploads/2015/07/rio-sinu-Monteria.jpg',
       title: 'El rio sinu',
-      description: 'El Sinú es uno de los tres ríos más importantes de Córdoba, pasa por 17 municipios en un recorrido total de 415 kilómetros. Conecta de sur a norte a la ciudad de Montería, allí ha adquirido mayor relevancia debido las fallas del transporte público convencional.',
+      description:
+        'El Sinú es uno de los tres ríos más importantes de Córdoba, pasa por 17 municipios en un recorrido total de 415 kilómetros. Conecta de sur a norte a la ciudad de Montería, allí ha adquirido mayor relevancia debido las fallas del transporte público convencional.',
       button_url: 'https://rutasdelconflicto.com/rios-vida-muerte/rios/r-o',
     },
     {
