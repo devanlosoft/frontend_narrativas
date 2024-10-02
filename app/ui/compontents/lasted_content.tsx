@@ -12,7 +12,7 @@ export default function LastedContent() {
   const itemsPerPage = 6;
 
   useEffect(() => {
-    fetch('http://localhost:3001/narrativas/contents/')
+    fetch('https://backend-narrativas.onrender.com/narrativas/contents/')
       .then((res) => res.json())
       .then((responseData) => {
         setData(responseData.contents);
@@ -21,7 +21,7 @@ export default function LastedContent() {
   }, []);
 
   useEffect(() => {
-    fetch('http://localhost:3001/narrativas/categories')
+    fetch('https://backend-narrativas.onrender.com/narrativas/categories')
       .then((res) => res.json())
       .then((responseData) => {
         setCategories(responseData.category);

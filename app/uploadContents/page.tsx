@@ -21,7 +21,7 @@ export default function Page() {
     const getCategories = async () => {
       try {
         const response = await axios.get(
-          'http://localhost:3001/narrativas/categories',
+          'https://backend-narrativas.onrender.com/narrativas/categories',
         );
         console.log('categorias', response.data.category);
         setCategorias(response.data.category);
@@ -66,7 +66,7 @@ export default function Page() {
       }
 
       const response = await axios.post(
-        'http://localhost:3001/narrativas/formulario',
+        'https://backend-narrativas.onrender.com/narrativas/formulario',
         formDataToSend,
         {
           headers: {
